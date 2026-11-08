@@ -785,10 +785,10 @@ def use_consumable_item(current_enemy=None):
                 if 0 <= item_to_use <= len(consumable_item_list):
                     break
                 else:
-                    print(f"Incorrect option.")
+                    print("Incorrect option.")
                     print()
             except ValueError:
-                print(f"Numbers only.")
+                print("Numbers only.")
                 print()
 
         # Cancels item usage
@@ -1107,7 +1107,7 @@ def view_inventory(inventory):
         if item_quantity["Quantity"] > 0:
             print(f"- {item_name}: {item_quantity['Quantity']}")
 
-    # Displays all health potions with a quantity greater than 0
+    # Displays all stamina potions with a quantity greater than 0
     for item_name, item_quantity in inventory["Stamina Potions"].items():
         if item_quantity["Quantity"] > 0:
             print(f"- {item_name}: {item_quantity['Quantity']}")
