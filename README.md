@@ -26,7 +26,7 @@ Built as coursework for a first-year programming module on my BSc (Hons) Compute
 Requires Python 3. It uses only the standard library, so there's nothing to install.
 
 ```bash
-git clone https://github.com/zer0z0mbie/mythical-golden-key.git
+git clone https://github.com/matheusmajer/mythical-golden-key.git
 cd mythical-golden-key
 python mythical_golden_key.py
 ```
