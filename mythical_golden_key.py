@@ -1362,8 +1362,8 @@ def room_3(player_name):
         print()
 
         battle_outcome = battle(current_turn, current_enemy, player_name)
-        if battle_outcome == "Game Over":
-            return "Game Over"
+        if battle_outcome in ("Game Over", "Out of Stamina"):
+            return battle_outcome
 
     # --- Room Event 2: Random Portal to Rooms 1, 7, or 10 ---
     if current_room_visit == 4:
