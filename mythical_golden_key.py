@@ -650,7 +650,7 @@ def player_turn(current_enemy):
 
     # --- (3) Use Items ---
     elif player_turn_action == 3:
-        use_consumable_item(current_enemy)
+        return use_consumable_item(current_enemy)
 
 
 def battle_status(current_enemy):
